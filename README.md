@@ -29,6 +29,7 @@ This project is to provision the compliance script for disabling specific functi
 To make the MacBook compliant to our security standards, please run:
 ./rc-compliance.sh enable
 ```
+```
 To remove the security compliance, please run:
 ./rc-compliance.sh disable
 ```
