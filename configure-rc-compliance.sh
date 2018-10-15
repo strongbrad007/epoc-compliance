@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# install homebrew #
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+# install homebrew apps #
+brew install blueutil
+
 ##### Create Ryan Center Compliance script #####
 cd ~/workspace
 echo '#!/bin/bash
