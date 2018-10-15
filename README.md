@@ -2,7 +2,6 @@
 
 # Install procedures
 ```
-Important! Ensure that you have accessed the Apple App Store before executing this script.
 1. Open terminal
 2. If not already there, cd ~
 3. mkdir workspace
