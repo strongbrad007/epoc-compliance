@@ -5,9 +5,11 @@
 Important! Ensure that you have accessed the Apple App Store before executing this script.
 1. Open terminal
 2. If not already there, cd ~
-3. git clone https://github.com/jmcclenny-epoc/epoc-compliance.git
-4. cd epoc-compliance
-5. ./configure-rc-compliance.sh
+3. mkdir workspace
+4. cd workspace
+5. git clone https://github.com/jmcclenny-epoc/epoc-compliance.git
+6. cd epoc-compliance
+7. ./configure-rc-compliance.sh
 
 See below for individual script usage.
 ```
