@@ -48,8 +48,8 @@ then
     # Reference: Apple OS X 10.12 Security Technical Implementation Guide #
     # Please note that both profiles listed below are required to lockdown the camera. 
     # Application Restriction prevents FaceTime to be accessed, Restrictions Policy disables the camera and other apps. However, both are required to lock down the camera functionality. #
-    /usr/bin/profiles install -path ~/workspace/epoc/MacOS-Install/U_Apple_OS_X_10-12_V1R3_Mobile_Configuration_Files/U_Apple_OS_X_10-12_V1R3_STIG_Application_Restrictions_Policy.mobileconfig
-    /usr/bin/profiles install -path ~/workspace/epoc/MacOS-Install/U_Apple_OS_X_10-12_V1R3_Mobile_Configuration_Files/U_Apple_OS_X_10-12_V1R3_STIG_Restrictions_Policy.mobileconfig    
+    /usr/bin/profiles install -path ~/workspace/epoc-compliance/U_Apple_OS_X_10-12_V1R3_Mobile_Configuration_Files/U_Apple_OS_X_10-12_V1R3_STIG_Application_Restrictions_Policy.mobileconfig
+    /usr/bin/profiles install -path ~/workspace/epoc-compliance/U_Apple_OS_X_10-12_V1R3_Mobile_Configuration_Files/U_Apple_OS_X_10-12_V1R3_STIG_Restrictions_Policy.mobileconfig    
 
     # closes: V-76059
     # Reference: Apple OS X 10.12 Security Technical Implementation Guide  #
